@@ -1,4 +1,4 @@
-# RichDreamer
+# PICTURE
 PICTURE: PhotorealistIC virtual Try-on from UnconstRained dEsigns
 
 <!-- [Lingteng Qiu\*](https://lingtengqiu.github.io/),
