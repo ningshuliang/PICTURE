@@ -12,7 +12,7 @@ Yushuang Wu,
 [Liefeng Bo](https://research.cs.washington.edu/istc/lfb/),
 [Xiaoguang Han](https://gaplab.cuhk.edu.cn/) -->
 
-<a href='https://ningshuliang.github.io/2023/Arxiv/index.html/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=nEqVbkl2yY0)
+<a href='https://ningshuliang.github.io/2023/Arxiv/index.html'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=nEqVbkl2yY0)
 
 <img src=".\figs\teaser_GAP.jpg" alt="richdreamer" style="zoom:200%;" />
 
