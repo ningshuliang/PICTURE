@@ -40,6 +40,22 @@ conda activate picture
 pip install -r requirements.txt
 ~~~
 
+Download [pretrained weights]() and place it in the pretrain_models directory.
+
+## Stage 1
+
+~~~
+cd Stage1_Text_to_Parsing
+bash test.sh
+~~~
+
+## Stage 2
+
+~~~
+cd Stage2_Parsing_to_Image
+bash test.sh
+~~~
+
 
 
 ## Architecture

@@ -149,7 +149,7 @@ parser.add_argument(
 parser.add_argument(
         "--ckpt",
         type=str,
-        default="/data1/shuliang/CVPR_Code_Release/pretrain_models/v1-5-pruned-emaonly.ckpt",
+        default="./../pretrain_models/v1-5-pruned-emaonly.ckpt",
         help="path to checkpoint of model",
 )
 parser.add_argument(
@@ -244,10 +244,10 @@ if __name__ == '__main__':
     # dataset
 
 
-    test_path1 = '/data1/shuliang/CVPR_Code_Release/Sample_data/Parsing_Clear'
-    test_path2 = '/data1/shuliang/CVPR_Code_Release/Sample_data/Parsing_Wo_Cloth'
-    test_path3 = '/data1/shuliang/CVPR_Code_Release/Sample_data/Densepose'
-    test_path4 = '/data1/shuliang/CVPR_Code_Release/Sample_data/caption.json'
+    test_path1 = './../Sample_data/Parsing_Clear'
+    test_path2 = './../Sample_data/Parsing_Wo_Cloth'
+    test_path3 = './../Sample_data/Densepose'
+    test_path4 = './../Sample_data/caption.json'
 
 
 
@@ -264,11 +264,11 @@ if __name__ == '__main__':
 
     #======================================================   load  checkpoint ==========================================
     model = load_model_from_config(config, f"{opt.ckpt}").to(device)
-    model.load_state_dict(torch.load('/data1/shuliang/CVPR_Code_Release/pretrain_models/Stage1/model_15000.pth'))
-    model.first_stage_model.init_from_ckpt('/data1/shuliang/CVPR_Code_Release/pretrain_models/vae-ft-mse.ckpt')
+    model.load_state_dict(torch.load('./../pretrain_models/Stage1/model_15000.pth'))
+    model.first_stage_model.init_from_ckpt('./../pretrain_models/vae-ft-mse.ckpt')
 
 
-    version="/data1/shuliang/CVPR_Code_Release/pretrain_models/clip-vit-large-patch14"
+    version="./../pretrain_models/clip-vit-large-patch14"
 
     clip_model = CLIPTextModel.from_pretrained(version).to(device)
     tokenizer = CLIPTokenizer.from_pretrained(version)
@@ -379,7 +379,7 @@ if __name__ == '__main__':
                 for id_sample, x_sample in enumerate(x_samples_ddim):
                     x_sample = 255.*x_sample
                     img = x_sample.astype(np.uint8)                    
-                    cv2.imwrite(os.path.join('/data1/shuliang/CVPR_Code_Release/Sample_data/Parsing_generate_by_stage1', file_name[0]), img[:,:,::-1])
+                    cv2.imwrite(os.path.join('./../Sample_data/Parsing_generate_by_stage1', file_name[0]), img[:,:,::-1])
 
 
 
