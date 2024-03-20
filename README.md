@@ -27,8 +27,18 @@ PICTURE: PhotorealistIC virtual Try-on from UnconstRained dEsigns
 
 ```
 - System requirement: Ubuntu20.04
-- Tested GPUs: RTX4090, A100
+- Tested GPUs: A100 40G.
+- Cuda 11.7
 ```
+
+Install requirements using following scripts.
+
+~~~
+git clone https://github.com/ningshuliang/PICTURE.git
+conda create -n picture
+conda activate picture
+pip install -r requirements.txt
+~~~
 
 
 
