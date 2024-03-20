@@ -1,16 +1,12 @@
 # PICTURE
 PICTURE: PhotorealistIC virtual Try-on from UnconstRained dEsigns
 
-<!-- [Lingteng Qiu\*](https://lingtengqiu.github.io/),
-[Guanying Chen\*](https://guanyingc.github.io/),
-[Xiaodong Gu\*](https://scholar.google.com.hk/citations?user=aJPO514AAAAJ&hl=zh-CN&oi=ao),
-Qi Zuo,
-[Mutian Xu](https://mutianxu.github.io/),
-Yushuang Wu,
-[Weihao Yuan](https://weihao-yuan.com/),
-[Zilong Dong](https://scholar.google.com/citations?user=GHOQKCwAAAAJ&hl=zh-CN&oi=ao),
-[Liefeng Bo](https://research.cs.washington.edu/istc/lfb/),
-[Xiaoguang Han](https://gaplab.cuhk.edu.cn/) -->
+[Shuliang Ning*](https://ningshuliang.github.io/),
+[Duomin Wang](https://guanyingc.github.io/),
+[Yipeng Qin](https://profiles.cardiff.ac.uk/staff/qiny16),
+[Zirong Jin](https://scholar.google.com/citations?user=6-ARg6AAAAAJ&hl=en),
+[Baoyuan Wang](https://sites.google.com/site/zjuwby/),
+[Xiaoguang Han](https://gaplab.cuhk.edu.cn/)
 
 <a href='https://ningshuliang.github.io/2023/Arxiv/index.html'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2312.04534'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=nEqVbkl2yY0)
 
@@ -28,7 +24,6 @@ Yushuang Wu,
   
 
 ## Architecture
-
 ![architecture](doc/architecture.jpg)
 
 ## Experiments
