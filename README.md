@@ -2,7 +2,7 @@
 PICTURE: PhotorealistIC virtual Try-on from UnconstRained dEsigns
 
 [Shuliang Ning*](https://ningshuliang.github.io/),
-[Duomin Wang](https://guanyingc.github.io/),
+[Duomin Wang](https://dorniwang.github.io/),
 [Yipeng Qin](https://profiles.cardiff.ac.uk/staff/qiny16),
 [Zirong Jin](https://scholar.google.com/citations?user=6-ARg6AAAAAJ&hl=en),
 [Baoyuan Wang](https://sites.google.com/site/zjuwby/),
