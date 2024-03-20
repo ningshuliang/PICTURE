@@ -13,17 +13,27 @@ PICTURE: PhotorealistIC virtual Try-on from UnconstRained dEsigns
 <img src=".\figs\teaser_GAP.jpg" alt="richdreamer" style="zoom:200%;" />
 
 <!-- ## TODO :triangular_flag_on_post:
+
 - [ ] Provide the generation trial on [ModelScope's 3D Object Generation](https://modelscope.cn/studios/Damo_XR_Lab/3D_AIGC/summary)
-
 - [ ] Text to ND Diffusion Model
-
 - [ ] Multiview-ND and Multiview-Albedo Diffusion Models
-
 - [ ] Release code (The code will be public around the end of Dec.2023.) -->
 
-  
+
+
+
+
+## Install
+
+```
+- System requirement: Ubuntu20.04
+- Tested GPUs: RTX4090, A100
+```
+
+
 
 ## Architecture
+
 ![architecture](doc/architecture.jpg)
 
 ## Experiments
