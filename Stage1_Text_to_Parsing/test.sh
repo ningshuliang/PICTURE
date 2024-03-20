@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --master_port=6007 test.py
