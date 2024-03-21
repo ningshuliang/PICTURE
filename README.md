@@ -40,8 +40,7 @@ conda activate picture
 pip install -r requirements.txt
 ~~~
 
-Download [pretrained weights](链接：https://pan.baidu.com/s/1fSvodcHZJOBWfVihHshUdA?pwd=x7k6 
-提取码：x7k6) and place it in the pretrain_models directory.
+Download [pretrained weights](https://pan.baidu.com/s/1fSvodcHZJOBWfVihHshUdA?pwd=x7k6) and place it in the pretrain_models directory.
 
 ## Stage 1
 
